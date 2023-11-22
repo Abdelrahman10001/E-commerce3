@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https:/Abdelrahman10001.github.io/E-commerce-CC",
+  "homepage": "https:/Abdelrahman10001.github.io/E-commerce",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -57,7 +57,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.0.0"
   }
 }
