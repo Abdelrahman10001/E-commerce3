@@ -36,7 +36,7 @@ export default function Forgetpassword() {
             const response = await axios.post(
                 'https://route-ecommerce.onrender.com/api/v1/auth/verifyResetCode', values
             );
-            if (response.data.status == "Success") {
+            if (response.data.status === "Success") {
                 navigate('/ResetPass')
             }
 

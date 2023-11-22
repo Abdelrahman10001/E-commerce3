@@ -31,7 +31,7 @@ import ResetPass from './Component/ResetPass/ResetPass';
 let routers = createBrowserRouter([
   {
 
-         element: <Layout />, children: [
+    element: <Layout />, children: [
       { path: '', element: <Home /> },
       { path: 'home', element: <Home /> },
       { path: 'E-commerce', element: <Home /> },
